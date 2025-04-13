@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url(fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-content{
+    position: absolute;
+    width: 72%;
+    margin-left: 11%;
+}
+
+#title{
+    color: #003775;
+    text-align:  center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#title1{
+    color: #000000;
+    text-align:  center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+#buscar{
+background-image: url(https://images.vexels.com/media/users/3/143356/isolated/preview/64e14fe0195557e3f18ea3becba3169b-lupa-de-pesquisa.png);
+}
+
+#toys-grid {
+    margin-bottom: 50px;
+    margin-left: 200px;
+    width: 80%;
+    margin-top: 1%;
+    font-size: larger;
+    
+}
+
+#toys-grid .txt-heading {
+    background-color: #000000;
+}
+
+#toys-grid table {
+    position: relative;
+    width: 100%;
+    background-color: #00377500;
+}
+
+.desc{
+    background-color: #ffffff48;
+    height: 50px;
+}
+
+#btns{
+    background-color: transparent;
+}
+
+
+.search-box {
+    border: 2px solid #00377500;
+    background-color: #003775;
+    margin: 2px 0px;
+}
+
+.demoInputBox {
+    background-color: #ffffff81;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 15px;
+    margin: 1%;
+    color: #000000;
+}
+
+::placeholder{
+color: black;
+}
+
+.btnSearch {
+    padding: 10px;
+    border: #F0F0F0 1px solid;
+    border-radius: 4px;
+    margin: 0px 5px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.btnEditAction {
+    background-color: #003775;
+    padding: 4px 7px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 25%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.btnDeleteAction {
+    background-color: #003775;
+    padding: 4px 7px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+#btnAddAction {
+    background-color: #003775;
+    border: 0;
+    padding: 7px 10px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 35%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+
+.perpage-link{
+    background-color: #ffffff50;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: #003775;
+    border-style:solid;
+    border-color: #ffffff00;
+    padding:1px 10px;
+}
+
+.current-page{   
+    background-color: #003775;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: #ffffff;
+    padding: 0px 10px;
+    border-style: solid;
+    border-color: #003775;
+    
+
+}

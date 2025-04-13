@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url(fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-content{
+    position: absolute;
+    width: 72%;
+    margin-left: 11%;
+}
+
+#title{
+    color: #ffffff;
+    text-align:  center;
+}
+
+#buscar{
+background-image: url(https://images.vexels.com/media/users/3/143356/isolated/preview/64e14fe0195557e3f18ea3becba3169b-lupa-de-pesquisa.png);
+}
+
+#toys-grid {
+    margin-bottom: 50px;
+    margin-left: 200px;
+    width: 80%;
+}
+
+#toys-grid .txt-heading {
+    background-color: #000000;
+}
+
+#toys-grid table {
+    position: relative;
+    width: 100%;
+    background-color: #006f83;
+}
+
+#toys-grid table td {
+    background-color: #b8b8b8;
+}
+
+.search-box {
+    border: 2px solid #b8b8b8;
+    background-color: #006f83;
+    margin: 2px 0px;
+}
+
+.demoInputBox {
+    padding: 10px;
+    border: #F0F0F0 1px solid;
+    border-radius: 4px;
+    margin: 0px 5px
+}
+
+.btnSearch {
+    padding: 10px;
+    border: #F0F0F0 1px solid;
+    border-radius: 4px;
+    margin: 0px 5px;
+}
+
+
+.btnEditAction {
+    background-color: #2FC332;
+    padding: 2px 5px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btnDeleteAction {
+    background-color: #D60202;
+    padding: 2px 5px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#btnAddAction {
+    background-color: #006f83;
+    border: 0;
+    padding: 5px 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
